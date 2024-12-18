@@ -25,3 +25,8 @@ Future Goals:
 - Deployment: The next steps involve deploying the platform to a cloud service like **AWS** for live access.
 - Additional Features: In the future, I aim to add features such as notifications, data analytics, and more to enhance the functionality of the platform.
 
+
+
+
+
+

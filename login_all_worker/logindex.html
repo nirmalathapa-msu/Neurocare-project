@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Staff Heroes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7ff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background-color: white;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #004d80;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+
+        .hero-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+            background-color: #f0fbff;
+        }
+
+        .hero-text h1 {
+            font-size: 28px;
+            color: #004d80;
+        }
+
+        .hero-text p {
+            margin-top: 15px;
+            font-size: 16px;
+            color: #666;
+        }
+
+        .hero-text .btn {
+            margin-top: 20px;
+            padding: 10px 25px;
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        /* Responsive Styles */
+        @media (min-width: 768px) {
+            .hero-section {
+                flex-direction: row;
+                justify-content: space-between;
+                text-align: left;
+                padding: 50px;
+            }
+
+            .hero-text {
+                max-width: 50%;
+            }
+
+            .hero-text h1 {
+                font-size: 40px;
+            }
+
+            .hero-text p {
+                font-size: 18px;
+            }
+
+            .hero-image img {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">LOGOTYPE</div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="hero-text">
+            <h1>DOCTORS ARE OUR HEROES</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec elit eget lorem euismod tincidunt.</p>
+            <button class="btn">Get started</button>
+        </div>
+        <div class="hero-image">
+            <img src="file:///C:/Users/Lenovo/Downloads/vanilla/staff-dash/assets/images/FE0B2D0E.png" alt="Medical Heroes">
+        </div>
+    </div>
+
+</body>
+</html>
